@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Sebastian Stanici's resume
+%
+% Author:
+% Sebastian Stanici 
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\newcommand{\quotes}[1]{``#1''}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,      
+    urlcolor=blue
+    }
+
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Sebastian Stanici} % Your name
+\address{(+44) 7450 859 962 \\ 2 Dipper Drive, London, United Kingdom E3 3YQ} % Your address
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
+\address{\href{mailto:stanicisebastian@gmail.com}{stanicisebastian@gmail.com} \\ \href{http://github.com/Seba7159}{github.com/Seb7159}  \\ \href{http://linkedin.com/in/sebastianstanici}{linkedin.com/in/sebastianstanici}} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work Experience}
+
+\begin{rSubsection}{JPMorgan Chase}{Sept 2020 - Present}{SOC Analyst, Associate}{London, United Kingdom}
+\item Main activities are to respond, investigate and remediate incoming cyber security alerts in order to keep the firm safe from cyber threats and attacks using Splunk for SIEM, CrowdStrike, OSINT tools.
+\item Other side projects I worked on were related to JavaScript deobfuscation techniques, threat hunting for different attack techniques which are tested through red or purple teaming, mentoring new analysts into fully joining the team and developing AWS cloud scripts to assist with case analysis.
+\end{rSubsection}
+
+\begin{rSubsection}{School of Computer Science, University of Birmingham}{Oct 2018 - Apr 2020}{Java Teaching Associate}{Birmingham, United Kingdom}
+\item Aided the MSc Java Software Workshop course by holding tutorials, shared lectures and laboratory sessions for Masters students building up their Java, networks and software engineering skills.
+\end{rSubsection}
+
+\begin{rSubsection}{JPMorgan Chase}{June - Aug 2019}{Software Engineering Intern}{Bournemouth, United Kingdom}
+\item The role involved developing features for a trending product ensuring the secure software design of projects with technologies such as Java, Angular and TypeScript.
+\item My involvement in the Cyber and Technology Controls department also represented taking part in a global CTF event between cyber security interns which resulted in obtaining the first place.
+\end{rSubsection}
+
+\begin{rSubsection}{IT Services, University of Birmingham}{July - Aug 2018}{Research System Administrator Assistant}{Birmingham, United Kingdom}
+\item Responsible with setting up Jupyter Hub through Docker by having made available different kernels such as Python, R, TensorFlow and the distributed computing environment.
+\item Gained knowledge of using the Unix shell in a high performance computing environment, Docker images, networking and cyber security.
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Cyber Security tools \ & Windows/Unix/power shell, Burp, Wireshark, Metasploit \\
+Software engineering \ & Git, Agile, SCRUM, Waterfall, DevOps, Microservices \\
+Programming languages \ & Java, C/C++, Python, Bash, Golang, Assembly \\
+SIEM tools \ & Splunk, ElasticSearch, CrowdStrike Falcon LogScale \\
+Databases \ & SQL (MySQL, MariaDB, PostgreSQL), NoSQL (RavenDB) \\
+Suites \ & JetBrains tools, Eclipse IDE, Microsoft Office suite \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf University of Birmingham, United Kingdom} \hfill {\em Sept 2017 - July 2020} 
+\\ BSc Computer Science - 1st class degree \hfill { GPA: 4.25 }
+\\ Relevant modules: \quad Computer security \quad \hphantom{ssss:} Network security \quad \hphantom{ssss} C/C++ 
+\\ \hphantom{ssssssssssssssssssssss:} \,Systems architecture \hphantom{ss}\, \quad Software Engineering \quad Java Workshop
+\\ \hphantom{ssssssssssssssssssssss:} \,Professional computing \quad \,Data structures and algorithms
+
+{\bf \quotes{Grigore Moisil} High School Timisoara, Romania} \hfill {\em Sept 2013 - June 2017}
+\\ Baccalaureate diploma with A* equivalent in Mathematics and A* equivalent in Informatics
+
+\end{rSection}
+
+
+\newpage
+
+%--------------------------------------------------------------------------------
+%    Projects 
+%-----------------------------------------------------------------------------------------------
+\begin{rSection}{Certifications and projects}
+
+\begin{rSubsection}{Offensive Security Certified Professional (OSCP) certification}{Nov 2022}{}{}
+\item Demonstrated the ability to use persistence, creativity, and perceptiveness to identify vulnerabilities and execute organized attacks under tight time constraints. \item Shown outside the box thinking while managing both time and resources.
+\end{rSubsection}
+
+\begin{rSubsection}{RAF Association Connections for Life volunteering website}{Oct 2020 - July 2021}{}{}
+\item A team of volunteers from JPMorgan Chase have gathered in their free time to develop a website for the Royal Air Force Association to find volunteers across the UK who could connect with RAF veterans. 
+
+\item Technologies such as Salesforce, Wordpress, JavaScript and Linux system administration have been used to develop the project all under an Agile development project development methodology.
+\end{rSubsection}
+
+\begin{rSubsection}{Industrial Control Systems product vulnerability disclosed}{Sep 2019 - Apr 2020}{}{}
+\item A white-box vulnerability assessment has been conducted on an ICS product owned by a market-leading vendor as part of the university final year project. 
+
+\item A new authentication vulnerability has been found, ethically disclosed to the vendor and fixed in the immediate update of the product through work alongside my professor and their PhD student. 
+\end{rSubsection}
+
+
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+% Extra Curricular
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Extra-curricular activities}
+\item Volunteering on company\textsc{\char13}s Corporate Responsibility days to preserve the fauna and flora of parts from the United Kingdom 
+\item Actively teaching programming, cyber security and software engineering to students from various levels from Year 3 to Masters degree 
+\item Joining cyber security and software engineering conferences
+\item Using cyber security learning platforms such as HackTheBox, TryHackMe and Proving Grounds to develop practical penetration testing skills
+\item Actively taking part in hackathon and capture the flag events
+\item Managed the University\textsc{\char13}s Computer Science Society as Vice-president\\
+
+\end{rSection}
+
+\begin{rSection}{Personal hobbies}
+Mentoring, running, yoga, reading psychology books, squash, table tennis, hiking, helping others\\
+\end{rSection}
+
+\begin{rSection}{References}
+Tom Chothia, Reader at University of Birmingham, email: t.p.chothia@cs.bham.ac.uk
+\end{rSection}
+\end{document}
